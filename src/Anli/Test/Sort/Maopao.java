@@ -24,7 +24,7 @@ public class Maopao {
 
 
     static void ArrtoString(int[] arr){
-        StringBuilder str = new StringBuilder() ;//一定要记住不能用String类型，不好搞，StringBuild方便
+        StringBuilder str = new StringBuilder() ;//一定要记住不能用String类型，不好搞，StringBuilder方便
         for (int i=0 ; i <arr.length; i++){
             str.append(arr[i]);
             str.append(",");
